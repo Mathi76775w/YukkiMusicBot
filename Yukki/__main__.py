@@ -121,7 +121,7 @@ async def initiate_bot():
 
 home_text_pm = f"""Hᴇʟʟᴏ,
 Mʏ Nᴀᴍᴇ Is {BOT_NAME}.
-A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ ⚡PʏTɢM𝐮𝐬𝐢𝐜 !.
+A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ [⚡PʏTɢM𝐮𝐬𝐢𝐜] !.
 
 Mᴀᴅᴇ Wɪᴛʜ ❤️ Bʏ [𝐕𝐢𝐣𝐚𝐲](t.me/Attitude_king_vj)"""
 
@@ -220,11 +220,11 @@ async def help_parser(name, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """Hello {first_name},
+        """Hᴇʟʟᴏ {first_name} Iᴛ's\n\n Hᴇʟᴘ Mᴇɴᴜ Oғ 𝐏𝐲𝐓𝐠[𝐌𝐮𝐬𝐢𝐜] ,
 
-Click on the buttons for more information.
+Hᴇʟᴘ Mᴇɴᴜ Cʟɪᴄᴋ Tʜᴇ Bᴜᴛᴛᴏɴs Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ.
 
-All commands can be used with: /
+Cᴏᴍᴍᴇɴᴅ Hɪɴᴛ : /
 """.format(
             first_name=name
         ),
