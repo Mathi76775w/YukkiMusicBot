@@ -106,7 +106,7 @@ async def on_stream_end(client: PyTgCalls, update: Update) -> None:
                     photo=thumb,
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=(
-                        f"🎥<b>__Started Playing:__ </b>[{title[:25]}](https://www.youtube.com/watch?v={afk}) \n👤**__Requested by:__** {mention}"
+                        f"🏷️<b>__Title:__ </b>[{title[:25]}](https://www.youtube.com/watch?v={afk}) \n👤**__Requested by:__** {mention}"
                     ),
                 )
                 os.remove(thumb)
@@ -147,7 +147,7 @@ async def on_stream_end(client: PyTgCalls, update: Update) -> None:
                     chat_id,
                     photo=thumb,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"🎥<b>__Started Playing:__</b> {title} \n👤<b>__Requested by:__ </b> {mention}",
+                    caption=f"<b🏷️>__Title:__</b> {title} \n👤<b>__Requested by:__ </b> {mention}",
                 )
             await start_timer(
                 videoid,
