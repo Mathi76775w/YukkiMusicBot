@@ -121,7 +121,7 @@ async def initiate_bot():
 
 home_text_pm = f"""Hᴇʟʟᴏ,
 Mʏ Nᴀᴍᴇ Is {BOT_NAME}.
-A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ [⚡PʏTɢM𝐮𝐬𝐢𝐜] !.
+A Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ Aʟʟᴏᴡs Yᴏᴜ Tᴏ Pʟᴀʏ Mᴜsɪᴄ Oɴ Gʀᴏᴜᴘs Tʜʀᴏᴜɢʜ Tʜᴇ Nᴇᴡ Tᴇʟᴇɢʀᴀᴍ's Vᴏɪᴄᴇ Cʜᴀᴛs Pᴏᴡᴇʀ Bʏ [⚡PʏTɢM𝐮𝐬𝐢𝐜](https://telegra.ph/file/f0b385493e6d52a715ad4.png) !.
 
 Mᴀᴅᴇ Wɪᴛʜ ❤️ Bʏ [𝐕𝐢𝐣𝐚𝐲](t.me/Attitude_king_vj)"""
 
